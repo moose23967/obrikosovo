@@ -2,3 +2,10 @@ name: obrikosovo
 version: '1.0-SNAPSHOT'
 main: ru.moose23967.obrikosovo.Obrikosovo
 api-version: '1.20'
+commands:
+  spawn:
+    description: Teleport player to spawn location
+    usage: /spawn
+  respawn:
+    description: Teleport player to respawn location
+    usage: /respawn

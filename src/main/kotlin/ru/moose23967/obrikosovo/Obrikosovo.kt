@@ -6,6 +6,8 @@ class Obrikosovo : JavaPlugin() {
 
     override fun onEnable() {
         // Plugin startup logic
+        this.getCommand("respawn")?.setExecutor(RespawnCommandExecutor());
+        this.getCommand("spawn")?.setExecutor(SpawnCommandExecutor());
     }
 
     override fun onDisable() {
