@@ -1,5 +1,6 @@
 package ru.moose23967.obrikosovo
 
+import org.bukkit.Particle
 import org.bukkit.Sound
 import org.bukkit.command.Command
 import org.bukkit.command.CommandExecutor
